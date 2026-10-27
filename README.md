@@ -4,6 +4,8 @@ Piattaforma web peer-to-peer per il noleggio di attrezzi tra privati: chi ha un 
 
 > Progetto in sviluppo. Nasce da un prototipo no-code (Base44), poi migrato su uno stack React.
 
+🌐 Demo: [franco-web.vercel.app](https://franco-web.vercel.app)
+
 ## Stack
 
 - React + Vite
@@ -17,15 +19,17 @@ Piattaforma web peer-to-peer per il noleggio di attrezzi tra privati: chi ha un 
 
 ## Installazione
 
+Il codice dell'applicazione si trova nella cartella `web/`.
+
 ```bash
 git clone https://github.com/urbvni/franco-web.git
-cd franco-web
+cd franco-web/web
 npm install
 ```
 
 ## Configurazione
 
-Copia il file di esempio e inserisci le tue credenziali Supabase:
+Dentro `web/`, copia il file di esempio e inserisci le tue credenziali Supabase:
 
 ```bash
 cp .env.example .env
@@ -53,15 +57,6 @@ npm run build
 npm run preview
 ```
 
-## Struttura (da completare)
-
-```
-src/
-├── components/   # componenti UI
-├── pages/        # pagine dell'app
-└── lib/          # client Supabase e utility
-```
-
 ## Documentazione
 
 - Stack Deployment Blueprint (v1.1)
@@ -69,7 +64,7 @@ src/
 
 ## Licenza
 
-[Da definire, es. MIT]
+MIT (da confermare)
 
 ## Autore
 
